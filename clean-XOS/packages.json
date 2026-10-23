@@ -1,0 +1,227 @@
+{
+  "device": "Infinix Hot 9 Play (X680 Series)",
+  "chipset": "MediaTek Helio A22 / Helio A25",
+  "os_version": "Transsion XOS (Dolphin / Cheetah on Android 9 / 10 / 10 Go)",
+  "tier1": {
+    "name": "Tier 1: Adware, Toko & Bloatware Pabrik",
+    "description": "Adware agresif, toko aplikasi spam notifikasi, dan telemetri latar belakang Transsion.",
+    "packages": [
+      {
+        "id": "com.transsion.phoenix",
+        "name": "Phoenix Browser",
+        "category": "Adware & Heavy Browsers",
+        "description": "Peramban bawaan yang sangat agresif menampilkan iklan notifikasi, berita clickbait, dan memakan RAM/baterai."
+      },
+      {
+        "id": "com.transsion.palmstore",
+        "name": "Palm Store",
+        "category": "Alternative App Stores",
+        "description": "Toko aplikasi alternatif Transsion yang terus mengirimkan notifikasi promosi dan pop-up pembaruan."
+      },
+      {
+        "id": "com.transsion.ahagames",
+        "name": "AHA Games",
+        "category": "Gaming Bloat",
+        "description": "Portal game instan bawaan yang sarat iklan dan mengunduh konten latar belakang."
+      },
+      {
+        "id": "com.ahagame.sdk.bussdk",
+        "name": "AHA Games SDK",
+        "category": "Gaming Bloat",
+        "description": "Komponen layanan pendukung AHA Games."
+      },
+      {
+        "id": "com.transsion.boomplayer",
+        "name": "Boomplay Music",
+        "category": "Multimedia & Ads",
+        "description": "Pemutar musik bawaan Transsion dengan iklan langganan dan notifikasi lagu online."
+      },
+      {
+        "id": "com.transsion.news.scooper",
+        "name": "Scooper News",
+        "category": "News Feed Bloat",
+        "description": "Aplikasi agregator berita yang sering memunculkan notifikasi pop-up di status bar."
+      },
+      {
+        "id": "com.transsion.share",
+        "name": "XShare (File Transfer)",
+        "category": "Multimedia & Ads",
+        "description": "Aplikasi transfer berkas bawaan dengan iklan layar penuh."
+      },
+      {
+        "id": "com.transsion.infoto",
+        "name": "Infinix Club / My Infinix",
+        "category": "OEM Community",
+        "description": "Aplikasi forum komunitas Infinix yang mengonsumsi RAM di latar belakang."
+      },
+      {
+        "id": "com.transsion.community",
+        "name": "Transsion Community",
+        "category": "OEM Community",
+        "description": "Layanan komunitas Transsion."
+      },
+      {
+        "id": "com.transsion.yoparty",
+        "name": "YoParty",
+        "category": "Multimedia & Ads",
+        "description": "Aplikasi sinkronisasi musik pesta yang jarang digunakan pengguna."
+      },
+      {
+        "id": "com.transsion.magicshow",
+        "name": "Magic Show",
+        "category": "System Bloat",
+        "description": "Layanan animasi dan efek layar bawaan XOS."
+      },
+      {
+        "id": "com.transsion.statisticalsales",
+        "name": "Statistical Sales Telemetry",
+        "category": "Telemetry & Tracking",
+        "description": "Pengumpul data telemetri penjualan dan pelacakan perangkat ke server Transsion."
+      },
+      {
+        "id": "com.transsion.trun",
+        "name": "Transsion Background Runner",
+        "category": "Telemetry & Tracking",
+        "description": "Daemon pelacak aktivitas latar belakang Transsion."
+      },
+      {
+        "id": "com.transsion.datareport",
+        "name": "Transsion Data Report",
+        "category": "Telemetry & Tracking",
+        "description": "Layanan pengiriman laporan analitik perangkat."
+      },
+      {
+        "id": "com.transsion.tabe",
+        "name": "Transsion Cloud Account Sync",
+        "category": "Telemetry & Tracking",
+        "description": "Layanan sinkronisasi akun Transsion (bisa dicopot jika tidak memakai akun Infinix/Tecno)."
+      },
+      {
+        "id": "com.facebook.services",
+        "name": "Facebook Services",
+        "category": "Third-Party Bloat",
+        "description": "Layanan background sistem bawaan pabrik milik Facebook."
+      },
+      {
+        "id": "com.facebook.system",
+        "name": "Facebook App Installer",
+        "category": "Third-Party Bloat",
+        "description": "Penginstal background bawaan pabrik milik Facebook."
+      },
+      {
+        "id": "com.facebook.appmanager",
+        "name": "Facebook App Manager",
+        "category": "Third-Party Bloat",
+        "description": "Manajer pembaruan background bawaan pabrik milik Facebook."
+      },
+      {
+        "id": "com.facebook.katana",
+        "name": "Facebook Stub",
+        "category": "Third-Party Bloat",
+        "description": "Aplikasi stub pra-instalasi Facebook."
+      }
+    ]
+  },
+  "tier2": {
+    "name": "Tier 2: Utilitas Bawaan XOS (Opsional)",
+    "description": "Aplikasi pembersih yang sering memunculkan notifikasi spam dan utilitas sekunder.",
+    "packages": [
+      {
+        "id": "com.transsion.phonemaster",
+        "name": "Phone Master (Booster / Cleaner)",
+        "category": "System Utilities",
+        "description": "Aplikasi booster yang sering mengirim spam notifikasi 'RAM Penuh' dan membebani Helio A22/A25."
+      },
+      {
+        "id": "com.transsion.filemanagerx",
+        "name": "XOS File Manager",
+        "category": "System Utilities",
+        "description": "Pengelola berkas bawaan XOS (aman dicopot jika memakai Files by Google)."
+      },
+      {
+        "id": "com.transsion.notebook",
+        "name": "XOS Notebook",
+        "category": "System Utilities",
+        "description": "Aplikasi catatan bawaan XOS."
+      },
+      {
+        "id": "com.transsion.compass",
+        "name": "XOS Compass",
+        "category": "System Utilities",
+        "description": "Aplikasi kompas bawaan."
+      },
+      {
+        "id": "com.transsion.scanningrecharger",
+        "name": "Scanning Recharger (QR Scanner)",
+        "category": "System Utilities",
+        "description": "Pemindai voucher pulsa dan kode QR bawaan."
+      },
+      {
+        "id": "com.transsion.magicfont",
+        "name": "Magic Font",
+        "category": "System Utilities",
+        "description": "Aplikasi pengubah gaya font sistem."
+      },
+      {
+        "id": "com.transsion.letswitch",
+        "name": "Mobile Cloner (LetsSwitch)",
+        "category": "System Utilities",
+        "description": "Alat transfer data saat ganti HP."
+      },
+      {
+        "id": "com.transsion.smartpanel",
+        "name": "Smart Panel",
+        "category": "System Utilities",
+        "description": "Bilah pintasan melayang di tepi layar (sidebar shortcut)."
+      },
+      {
+        "id": "com.transsion.weather",
+        "name": "XOS Weather",
+        "category": "System Utilities",
+        "description": "Aplikasi penyedia data cuaca bawaan."
+      },
+      {
+        "id": "com.transsion.manualguide",
+        "name": "XOS User Manual",
+        "category": "System Utilities",
+        "description": "Panduan manual elektronik pengguna."
+      }
+    ]
+  },
+  "tier3": {
+    "name": "Tier 3: Layanan Google Non-Esensial",
+    "description": "Layanan latar belakang Google yang memakan kapasitas RAM terbatas pada chipset Helio A22/A25.",
+    "packages": [
+      {
+        "id": "com.google.android.googlequicksearchbox",
+        "name": "Google App (QuickSearchBox)",
+        "category": "Google Heavy Services",
+        "description": "Pencarian, feed berita, dan Google Assistant latar belakang (~70 MB RAM)."
+      },
+      {
+        "id": "com.google.android.tts",
+        "name": "Google Speech Recognition & TTS",
+        "category": "Google Heavy Services",
+        "description": "Mesin sintesis suara bawaan Google (~40 MB RAM)."
+      },
+      {
+        "id": "com.google.android.apps.wellbeing",
+        "name": "Digital Wellbeing",
+        "category": "Google Heavy Services",
+        "description": "Pelacak waktu layar yang konstan memonitor konsumsi CPU dan RAM."
+      },
+      {
+        "id": "com.google.android.projection.gearhead",
+        "name": "Android Auto",
+        "category": "Google Heavy Services",
+        "description": "Integrasi sistem head-unit mobil."
+      },
+      {
+        "id": "com.google.android.apps.youtube.music",
+        "name": "YouTube Music Stub",
+        "category": "Google Heavy Services",
+        "description": "Aplikasi YouTube Music bawaan pabrik."
+      }
+    ]
+  }
+}
