@@ -1,0 +1,244 @@
+{
+  "device": "Redmi Note 10 4G (mojito/sunny)",
+  "os_version": "MIUI Global 14.0.6",
+  "tier1": {
+    "name": "Tier 1: Core Safe & Balanced",
+    "description": "Iklan, telemetri, daemon throttling (Joyose), dan bloatware pabrik.",
+    "packages": [
+      {
+        "id": "com.miui.msa.global",
+        "name": "MIUI System Ads (MSA Global)",
+        "category": "Ads & Telemetry",
+        "description": "Layanan utama injeksi iklan pada aplikasi dan antarmuka MIUI."
+      },
+      {
+        "id": "com.miui.analytics",
+        "name": "MIUI Analytics",
+        "category": "Ads & Telemetry",
+        "description": "Layanan analitik dan pelacakan aktivitas pengguna di latar belakang."
+      },
+      {
+        "id": "com.miui.daemon",
+        "name": "MIUI Daemon",
+        "category": "Ads & Telemetry",
+        "description": "Pengumpul statistik dan telemetri perangkat ke server Xiaomi."
+      },
+      {
+        "id": "com.miui.bugreport",
+        "name": "Miui Bug Report",
+        "category": "Ads & Telemetry",
+        "description": "Layanan pengiriman laporan bug otomatis yang berjalan di background."
+      },
+      {
+        "id": "com.miui.miservice",
+        "name": "Services & Feedback",
+        "category": "Ads & Telemetry",
+        "description": "Layanan umpan balik bawaan yang mengonsumsi RAM."
+      },
+      {
+        "id": "com.xiaomi.joyose",
+        "name": "Joyose Performance Daemon",
+        "category": "Throttling & Performance",
+        "description": "Daemon pembatas performa CPU/GPU dan pemicu thermal throttling agresif."
+      },
+      {
+        "id": "com.xiaomi.mipicks",
+        "name": "GetApps (Mi Picks)",
+        "category": "Store & Bloatware",
+        "description": "Toko aplikasi bawaan Xiaomi dengan spam notifikasi dan promosi."
+      },
+      {
+        "id": "com.xiaomi.payment",
+        "name": "Mi Pay Payment Service",
+        "category": "Store & Bloatware",
+        "description": "Layanan pembayaran bawaan Xiaomi."
+      },
+      {
+        "id": "org.mipay.android.manager",
+        "name": "Mi Pay Manager",
+        "category": "Store & Bloatware",
+        "description": "Komponen pendukung Mi Pay."
+      },
+      {
+        "id": "com.miui.hybrid",
+        "name": "Quick Apps (Hybrid Platform)",
+        "category": "Store & Bloatware",
+        "description": "Platform aplikasi web ringan tanpa instalasi yang kerap memuat iklan pop-up."
+      },
+      {
+        "id": "com.miui.hybrid.accessory",
+        "name": "Quick Apps Accessory",
+        "category": "Store & Bloatware",
+        "description": "Sub-layanan pendukung Quick Apps."
+      },
+      {
+        "id": "com.miui.yellowpage",
+        "name": "MIUI Yellow Pages",
+        "category": "Store & Bloatware",
+        "description": "Layanan direktori nomor telepon dan telemetri kontak bisnis."
+      },
+      {
+        "id": "com.xiaomi.discover",
+        "name": "Xiaomi Discover",
+        "category": "Store & Bloatware",
+        "description": "Layanan promosi aplikasi dan konten saran Xiaomi."
+      },
+      {
+        "id": "com.miui.videoplayer",
+        "name": "Mi Video",
+        "category": "Multimedia & Ads",
+        "description": "Pemutar video bawaan dengan feed online dan iklan promosi."
+      },
+      {
+        "id": "com.miui.player",
+        "name": "Mi Music",
+        "category": "Multimedia & Ads",
+        "description": "Pemutar musik bawaan yang sarat iklan streaming online."
+      },
+      {
+        "id": "com.miui.cleaner",
+        "name": "MIUI Cleaner (Clean Master SDK)",
+        "category": "Multimedia & Ads",
+        "description": "Pembersih cache yang memicu notifikasi pembersihan dan integrasi tracking."
+      },
+      {
+        "id": "com.mi.healthglobal",
+        "name": "Mi Health Global",
+        "category": "Multimedia & Ads",
+        "description": "Pelacak aktivitas kesehatan Xiaomi yang berjalan di background."
+      },
+      {
+        "id": "com.xiaomi.midrop",
+        "name": "ShareMe (Mi Drop)",
+        "category": "Multimedia & Ads",
+        "description": "Aplikasi transfer file bawaan Xiaomi dengan banner promosi."
+      },
+      {
+        "id": "com.facebook.services",
+        "name": "Facebook Services",
+        "category": "Third-Party Bloat",
+        "description": "Layanan sistem background bawaan pabrik milik Facebook."
+      },
+      {
+        "id": "com.facebook.system",
+        "name": "Facebook App Installer",
+        "category": "Third-Party Bloat",
+        "description": "Penginstal background bawaan pabrik milik Facebook."
+      },
+      {
+        "id": "com.facebook.appmanager",
+        "name": "Facebook App Manager",
+        "category": "Third-Party Bloat",
+        "description": "Manajer pembaruan background bawaan pabrik milik Facebook."
+      },
+      {
+        "id": "com.amazon.appmanager",
+        "name": "Amazon App Manager",
+        "category": "Third-Party Bloat",
+        "description": "Pengelola aplikasi mitra bawaan pabrik milik Amazon."
+      },
+      {
+        "id": "com.android.bookmarkprovider",
+        "name": "Bookmark Provider",
+        "category": "Third-Party Bloat",
+        "description": "Penyedia bookmark bawaan sistem legacy yang tidak terpakai."
+      },
+      {
+        "id": "com.android.providers.partnerbookmarks",
+        "name": "Partner Bookmarks",
+        "category": "Third-Party Bloat",
+        "description": "Penyedia bookmark mitra komersial pada browser bawaan."
+      }
+    ]
+  },
+  "tier2": {
+    "name": "Tier 2: Extended Utilities & Google Non-Essential",
+    "description": "Aplikasi bawaan yang jarang dipakai dan layanan Google sekunder.",
+    "packages": [
+      {
+        "id": "com.miui.compass",
+        "name": "MIUI Compass",
+        "category": "System Utilities",
+        "description": "Aplikasi kompas bawaan MIUI."
+      },
+      {
+        "id": "com.miui.notes",
+        "name": "MIUI Notes",
+        "category": "System Utilities",
+        "description": "Aplikasi catatan bawaan MIUI."
+      },
+      {
+        "id": "com.miui.weather2",
+        "name": "MIUI Weather",
+        "category": "System Utilities",
+        "description": "Aplikasi dan penyedia data cuaca bawaan MIUI."
+      },
+      {
+        "id": "com.android.soundrecorder",
+        "name": "MIUI Sound Recorder",
+        "category": "System Utilities",
+        "description": "Aplikasi perekam suara bawaan."
+      },
+      {
+        "id": "com.miui.fm",
+        "name": "MIUI FM Radio",
+        "category": "System Utilities",
+        "description": "Aplikasi radio FM analog."
+      },
+      {
+        "id": "com.miui.fmservice",
+        "name": "MIUI FM Service",
+        "category": "System Utilities",
+        "description": "Layanan latar belakang untuk radio FM."
+      },
+      {
+        "id": "com.caf.fmradio",
+        "name": "Qualcomm FM Radio",
+        "category": "System Utilities",
+        "description": "Antarmuka chipset radio FM Qualcomm."
+      },
+      {
+        "id": "com.miui.touchassistant",
+        "name": "Quick Ball (Touch Assistant)",
+        "category": "System Utilities",
+        "description": "Bola navigasi pintas melayang di layar."
+      },
+      {
+        "id": "com.google.android.apps.wellbeing",
+        "name": "Digital Wellbeing",
+        "category": "Google Non-Essential",
+        "description": "Pelacak waktu pemakaian layar Google yang aktif memonitor RAM/CPU."
+      },
+      {
+        "id": "com.google.android.projection.gearhead",
+        "name": "Android Auto",
+        "category": "Google Non-Essential",
+        "description": "Layanan integrasi head unit kendaraan (mobil)."
+      }
+    ]
+  },
+  "tier3": {
+    "name": "Tier 3: Advanced RAM Optimization",
+    "description": "Optimalisasi beban RAM berat: Face Unlock, Google Search & TTS.",
+    "packages": [
+      {
+        "id": "com.google.android.googlequicksearchbox",
+        "name": "Google App (QuickSearchBox)",
+        "category": "Google Heavy Services",
+        "description": "Layanan pencarian, feed, dan asisten Google yang memakan ~67 MB RAM."
+      },
+      {
+        "id": "com.google.android.tts",
+        "name": "Google Speech Recognition & TTS",
+        "category": "Google Heavy Services",
+        "description": "Mesin text-to-speech bawaan Google yang memakan ~43 MB RAM."
+      },
+      {
+        "id": "com.miui.face",
+        "name": "MIUI Face Unlock Service",
+        "category": "Biometrics",
+        "description": "Daemon pengenalan wajah latar belakang (~46 MB RAM). Aman dicopot jika hanya memakai sidik jari."
+      }
+    ]
+  }
+}

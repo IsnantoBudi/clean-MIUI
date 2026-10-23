@@ -1,0 +1,13 @@
+# Runtime Logs
+*.log
+debloat_history.log
+
+# Temporary and Scratch Folders
+scratch/
+.system_generated/
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
