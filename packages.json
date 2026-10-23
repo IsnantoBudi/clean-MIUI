@@ -39,7 +39,7 @@
         "id": "com.xiaomi.joyose",
         "name": "Joyose Performance Daemon",
         "category": "Throttling & Performance",
-        "description": "Daemon pembatas performa CPU/GPU dan pemicu thermal throttling agresif."
+        "description": "Daemon pembatas performa CPU/GPU dan pemicu thermal throttling agresif. Efek samping: menonaktifkan lensa ultrawide (0.6x) pada kamera bawaan MIUI (freeze), namun GCam (Google Camera) tetap berfungsi normal via Camera2 API."
       },
       {
         "id": "com.xiaomi.mipicks",

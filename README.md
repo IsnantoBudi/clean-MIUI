@@ -80,7 +80,7 @@ Pengujian dilakukan secara langsung pada perangkat fisik **Redmi Note 10 4G (M21
 | MIUI Daemon | `com.miui.daemon` | Ads & Telemetry | Pengirim log telemetri perangkat ke server Xiaomi |
 | Miui Bug Report | `com.miui.bugreport` | Ads & Telemetry | Daemon pengirim laporan crash otomatis yang memakan memori |
 | Services & Feedback | `com.miui.miservice` | Ads & Telemetry | Layanan umpan balik sistem yang jarang digunakan |
-| Joyose Daemon | `com.xiaomi.joyose` | Performance | **Pemicu thermal throttling agresif dan pembatas FPS** |
+| Joyose Daemon | `com.xiaomi.joyose` | Performance | **Pemicu thermal throttling agresif dan pembatas FPS** *(Catatan: Menonaktifkan lensa 0.6x di kamera bawaan MIUI; gunakan GCam LMC untuk ultrawide)* |
 | GetApps (Mi Picks) | `com.xiaomi.mipicks` | Store | Toko aplikasi Xiaomi yang sarat notifikasi iklan promosi |
 | Mi Pay Service | `com.xiaomi.payment` | Store & Bloat | Layanan pembayaran Xiaomi (tidak relevan di Indonesia) |
 | Mi Pay Manager | `org.mipay.android.manager` | Store & Bloat | Komponen pendukung Mi Pay |
@@ -136,6 +136,11 @@ Berikut adalah komponen yang **TIDAK DIBOLEHKAN** untuk dicopot demi menjaga int
 3. **`com.xiaomi.scanner` (Pemindai QR)**: Dipertahankan sesuai instruksi pengguna untuk kebutuhan scan dokumen dan barcode harian.
 4. **`com.android.camera` & `com.miui.gallery`**: Dipertahankan untuk akses pemrosesan sensor kamera 48 MP dan video stabilizer bawaan.
 5. **`com.android.chrome` & `com.brave.browser`**: Dipertahankan berdampingan sesuai preferensi browsing harian pengguna.
+
+> **Catatan Arsitektur Kamera (Joyose vs Kamera Bawaan vs GCam LMC)**:
+> - **Kamera Bawaan MIUI (`com.android.camera`)**: Memerlukan IPC handshake ke `com.xiaomi.joyose` untuk mengalokasikan parameter sensor aux saat beralih ke lensa ultrawide (*Sony IMX355*). Ketika Joyose dicopot, modul pemrosesan `VirtualCameraReprocessor` gagal memperoleh ID sensor yang valid (jatuh ke `device -1`) sehingga preview 0.6x mengalami freeze/crash.
+> - **GCam LMC (`com.google.android.GoogleCameraEngR18F1`)**: Beroperasi via standar Android Camera2 API langsung ke Qualcomm CamX HAL tanpa melalui framework proprietary Xiaomi ataupun Joyose. Oleh karena itu, kamera ultrawide tetap bekerja 100% normal dan lancar di GCam meskipun Joyose di-debloat.
+> - **Rekomendasi**: Jika Anda memprioritaskan performa gaming bebas *thermal throttling* agresif dengan mencopot Joyose, jadikan **GCam LMC** sebagai kamera utama untuk kebutuhan pengambilan foto ultrawide.
 
 ---
 
